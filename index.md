@@ -5,7 +5,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "University of Cape Town - Computational Biology Division"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
-country: "ZA"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
+country: "za"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
@@ -32,9 +32,14 @@ double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
 
+{% comment %}
+8< ============= For a workshop delete from here =============
+For a workshop please delete the following block until the next dashed-line
+{% endcomment %}
+
 
 {% comment %}
-
+8< ============================= until here ==================
 {% endcomment %}
 
 
@@ -211,9 +216,19 @@ special instructions.
   attempt to provide them.
 </p>
 {% else %}
-  We are dedicated to providing a positive and accessible learning environment for all. Please
-  notify the instructors in advance of the workshop if you require any accommodations or if there is
-  anything we can do to make this workshop more accessible to you.
+   We are committed to making this workshop
+  accessible to everybody. Since this workshop will be run online, organisers have checked that:
+</p>
+<ul>
+  <li>Closed captioning may be enabled during the workshop.</li>
+  <li>Font sizes and visual aids are appropriate</li>
+</ul>
+<p>
+  Materials will be provided in advance of the workshop.  If we can help making learning easier for
+  you (e.g. sign-language interpreters) please
+  get in touch (using contact details below) and we will
+  attempt to provide them.
+</p>
 </p>
 {% endif %}
 
